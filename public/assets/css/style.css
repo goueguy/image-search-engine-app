@@ -1,0 +1,9 @@
+.formulaire{
+    margin:150px auto;
+}
+body{
+    background: url('/assets/images/bg.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:500px;
+}
