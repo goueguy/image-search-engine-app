@@ -31,9 +31,9 @@
                     @if(count($pictures)>0)
                         @foreach ($pictures as $picture)
                             <div class="col-lg-3">
-                                <div class="card">
-                                    <img src="/pictures/{{$picture->file}}" class="w-100 h-100 img-thumbnail" alt="">
-                                </div>
+                                
+                                    <img src="/pictures/{{$picture->file}}" class="w-100 h-100 img-thumbnail" clalt="">
+                               
                             </div>
                         @endforeach
                     @else
